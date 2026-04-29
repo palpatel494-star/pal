@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pal Patel — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════ -->
+  <nav id="nav">
+    <div class="nav-wrap">
+      <a href="#hero" class="nav-logo">PP</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mob-menu" id="mobMenu">
+      <a href="#about"      onclick="closeMenu()">About</a>
+      <a href="#experience" onclick="closeMenu()">Experience</a>
+      <a href="#skills"     onclick="closeMenu()">Skills</a>
+      <a href="#contact"    onclick="closeMenu()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       HERO
+  ═══════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-stripe" aria-hidden="true"></div>
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <p class="eyebrow fu">Business Student · Rutgers University Newark</p>
+        <h1 class="fu d1">
+          Pal<br>
+          <em>Kiranbhai</em><br>
+          Patel
+        </h1>
+        <p class="hero-body fu d2">
+          Multilingual business student and certified Microsoft professional with
+          experience in team leadership, project management, and community-driven
+          initiatives across Hong Kong and New Jersey.
+        </p>
+        <div class="hero-btns fu d3">
+          <a href="#experience" class="btn-solid">View Experience</a>
+          <a href="#contact"    class="btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-right fu d2">
+        <div class="stat-card">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="stat-card accent-card">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Years of Experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Awards &amp; Certifications</span>
+        </div>
+        <div class="hero-langs">
+          <span>English</span>
+          <span>Gujarati</span>
+          <span>Hindi</span>
+          <span>Chinese</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       ABOUT
+  ═══════════════════════════════ -->
+  <section id="about" class="alt">
+    <div class="container">
+
+      <header class="sec-head reveal">
+        <span class="sec-label">01 — About</span>
+        <h2>Who I Am</h2>
+      </header>
+
+      <div class="about-grid">
+        <div class="about-copy reveal d1">
+          <p>
+            I am a driven and culturally fluent business student at
+            <strong>Rutgers University – Newark</strong>, pursuing a Bachelor of
+            Science in Business (Class of 2029). I hold an Ontario Secondary School
+            Diploma with Distinction (OSSD+) from DSC International School in Hong
+            Kong, where I developed a strong academic foundation alongside an active
+            record of leadership and community service.
+          </p>
+          <p>
+            Fluent in four languages and having lived across two continents, I
+            bring a global perspective to every team I join. I am passionate about
+            marketing, creative problem-solving, and building environments where
+            people can do their best work.
+          </p>
+          <div class="meta-list">
+            <div class="meta-item">
+              <span class="meta-k">Location</span>
+              <span>Rutherford, New Jersey, USA</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-k">Education</span>
+              <span>Rutgers University · B.S. Business '29</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-k">Languages</span>
+              <span>English · Gujarati · Hindi · Chinese</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-k">Contact</span>
+              <a href="mailto:Palpatel494@gmail.com">Palpatel494@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-aside reveal d2">
+
+          <div class="card-block">
+            <h4 class="block-title">Education</h4>
+            <div class="edu-entry">
+              <span class="edu-school">Rutgers University – Newark</span>
+              <span class="edu-deg">B.S. Business · Est. 2029</span>
+            </div>
+            <div class="edu-entry">
+              <span class="edu-school">DSC International School, HK</span>
+              <span class="edu-deg">OSSD+ · Business · 2025</span>
+            </div>
+          </div>
+
+          <div class="card-block">
+            <h4 class="block-title">Awards &amp; Certifications</h4>
+            <div class="award-item"><span class="aw-icon">🏅</span><div><strong>Honor Roll</strong><span>2022 – 2025</span></div></div>
+            <div class="award-item"><span class="aw-icon">🏛</span><div><strong>Harvard — The Wolves of Wall Street</strong><span>2024</span></div></div>
+            <div class="award-item"><span class="aw-icon">🪟</span><div><strong>Microsoft Certified</strong><span>2024</span></div></div>
+            <div class="award-item"><span class="aw-icon">💻</span><div><strong>Coding Award</strong><span>2022</span></div></div>
+            <div class="award-item"><span class="aw-icon">🏸</span><div><strong>Badminton Award</strong><span>2021</span></div></div>
+          </div>
+
+          <div class="card-block">
+            <h4 class="block-title">Interests</h4>
+            <div class="tags">
+              <span>Badminton</span><span>Marketing</span><span>Baking</span>
+              <span>Cycling</span><span>Swimming</span><span>Jewelry Design</span>
+              <span>Social Media Ads</span><span>Volunteering</span>
+              <span>Cooking</span><span>Art</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       EXPERIENCE
+  ═══════════════════════════════ -->
+  <section id="experience">
+    <div class="container">
+
+      <header class="sec-head reveal">
+        <span class="sec-label">02 — Experience</span>
+        <h2>What I've Done</h2>
+      </header>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab active" data-tab="work">Work</button>
+        <button class="tab" data-tab="volunteer">Volunteer</button>
+        <button class="tab" data-tab="activities">Activities</button>
+      </div>
+
+      <!-- WORK -->
+      <div class="tab-pane active" id="tab-work">
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <h3>Customer Service Associate</h3>
+              <span class="exp-co">Bingo&amp;Cook · Causeway Bay, Hong Kong</span>
+            </div>
+            <span class="exp-date">Apr 2024 – May 2025</span>
+          </div>
+          <ul class="bullets">
+            <li>Cultivated lasting relationships with a diverse clientele, consistently delivering attentive and personalised service</li>
+            <li>Managed high-volume service periods with composure, demonstrating strong multitasking and time-management skills</li>
+            <li>Collaborated closely with colleagues to maintain a positive, efficient, and team-oriented work environment</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d1">
+          <div class="exp-head">
+            <div>
+              <h3>Administrative &amp; Content Assistant</h3>
+              <span class="exp-co">Pansuriya Impex · Peninsula Square, Hong Kong</span>
+            </div>
+            <span class="exp-date">Jul – Aug 2021</span>
+          </div>
+          <ul class="bullets">
+            <li>Organised and maintained business records, ensuring information was accurate and readily accessible</li>
+            <li>Authored professional content aligned with the company's subject matter and brand voice</li>
+            <li>Worked cross-functionally with colleagues to meet shared organisational objectives</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- VOLUNTEER -->
+      <div class="tab-pane" id="tab-volunteer">
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <h3>Project Manager — Alcohol Awareness Campaign</h3>
+              <span class="exp-co">In partnership with the Kelly Support Group</span>
+            </div>
+            <span class="exp-date">Volunteer</span>
+          </div>
+          <ul class="bullets">
+            <li>Spearheaded a school-wide awareness campaign by leading a team through planning, development, and execution</li>
+            <li>Designed and delivered an interactive activity, an educational presentation, and a school-wide information scavenger hunt</li>
+            <li>Maintained clear team communication and accountability throughout, resulting in a highly successful campaign outcome</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d1">
+          <div class="exp-head">
+            <div>
+              <h3>Project Manager &amp; Student Ambassador — School Funfair</h3>
+              <span class="exp-co">DSC International School · Taikoo Shing, Hong Kong</span>
+            </div>
+            <span class="exp-date">Volunteer</span>
+          </div>
+          <ul class="bullets">
+            <li>Represented the school as a student ambassador, welcoming guests and directing attendees across all event stalls</li>
+            <li>Oversaw a dedicated stall team as project manager, clarifying responsibilities and ensuring seamless operations</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d2">
+          <div class="exp-head">
+            <div>
+              <h3>Charity Organiser — Candy Grams (MAD Club)</h3>
+              <span class="exp-co">DSC International School</span>
+            </div>
+            <span class="exp-date">Volunteer</span>
+          </div>
+          <ul class="bullets">
+            <li>Led a team in organising and running a school-wide candy gram fundraiser during dedicated lunchtime sessions</li>
+            <li>Coordinated donation collection and managed project logistics end-to-end, driving a successful outcome for charity</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d3">
+          <div class="exp-head">
+            <div>
+              <h3>Community Visitor — Elderly Care Initiative</h3>
+              <span class="exp-co">Kwun Tong &amp; Ngau Tau Kok, Hong Kong</span>
+            </div>
+            <span class="exp-date">Volunteer</span>
+          </div>
+          <ul class="bullets">
+            <li>Sourced and delivered essential daily goods to elderly residents in need across two districts</li>
+            <li>Provided meaningful companionship through regular visits, offering conversation and emotional support</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ACTIVITIES -->
+      <div class="tab-pane" id="tab-activities">
+        <div class="exp-card reveal">
+          <div class="exp-head">
+            <div>
+              <h3>Member &amp; Events Organiser — MAD Club</h3>
+              <span class="exp-co">DSC International School</span>
+            </div>
+            <span class="exp-date">Extracurricular</span>
+          </div>
+          <ul class="bullets">
+            <li>Co-organised recurring charitable events including food drives and candy gram campaigns to raise funds for charitable causes</li>
+            <li>Encouraged school-wide participation through effective promotion and community engagement</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d1">
+          <div class="exp-head">
+            <div>
+              <h3>Member — Debate Club</h3>
+              <span class="exp-co">DSC International School</span>
+            </div>
+            <span class="exp-date">Extracurricular</span>
+          </div>
+          <ul class="bullets">
+            <li>Participated in weekly structured debates, developing persuasive communication and the ability to articulate nuanced arguments</li>
+            <li>Evaluated opposing viewpoints critically, strengthening both analytical thinking and intellectual empathy</li>
+          </ul>
+        </div>
+        <div class="exp-card reveal d2">
+          <div class="exp-head">
+            <div>
+              <h3>Athlete — Sports Teams</h3>
+              <span class="exp-co">Touch Rugby · Doubles Badminton · Swimming</span>
+            </div>
+            <span class="exp-date">Extracurricular</span>
+          </div>
+          <ul class="bullets">
+            <li>Competed across three sports disciplines, developing discipline, resilience, and a strong collaborative mindset</li>
+            <li>Applied consistent practice and communication to perform effectively under competitive pressure</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SKILLS
+  ═══════════════════════════════ -->
+  <section id="skills" class="alt">
+    <div class="container">
+
+      <header class="sec-head reveal">
+        <span class="sec-label">03 — Skills</span>
+        <h2>What I Bring</h2>
+      </header>
+
+      <div class="skills-grid">
+
+        <div class="skill-block reveal d1">
+          <h4>Core Competencies</h4>
+          <div class="skill-tags">
+            <span>Communication</span>
+            <span>Leadership</span>
+            <span>Teamwork</span>
+            <span>Project Management</span>
+            <span>Critical Thinking</span>
+            <span>Problem-Solving</span>
+            <span>Adaptability</span>
+            <span>Creativity</span>
+            <span>Active Listening</span>
+            <span>Management</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal d2">
+          <h4>Languages</h4>
+          <div class="lang-list">
+            <div class="lang-row">
+              <span class="lang-name">English</span>
+              <div class="track"><div class="fill" data-w="100"></div></div>
+              <span class="lang-lvl">Native</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">Gujarati</span>
+              <div class="track"><div class="fill" data-w="100"></div></div>
+              <span class="lang-lvl">Native</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">Hindi</span>
+              <div class="track"><div class="fill" data-w="90"></div></div>
+              <span class="lang-lvl">Fluent</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">Chinese</span>
+              <div class="track"><div class="fill" data-w="72"></div></div>
+              <span class="lang-lvl">Proficient</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-block reveal d3">
+          <h4>Focus Areas</h4>
+          <div class="focus-list">
+            <div class="focus-row">
+              <span class="focus-icon">📣</span>
+              <div>
+                <strong>Marketing &amp; Brand Content</strong>
+                <p>Creating social media ads and brand storytelling that connect with audiences</p>
+              </div>
+            </div>
+            <div class="focus-row">
+              <span class="focus-icon">🗂</span>
+              <div>
+                <strong>Event &amp; Project Management</strong>
+                <p>End-to-end ownership of campaigns, fundraisers, and team-led initiatives</p>
+              </div>
+            </div>
+            <div class="focus-row">
+              <span class="focus-icon">🌐</span>
+              <div>
+                <strong>Cross-Cultural Communication</strong>
+                <p>Bridging diverse teams and communities across languages and backgrounds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       CONTACT
+  ═══════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <header class="sec-head reveal" style="text-align:center">
+        <span class="sec-label">04 — Contact</span>
+        <h2>Let's Connect</h2>
+        <p class="contact-sub">Open to internships, part-time opportunities, and conversations around business, marketing, and leadership.</p>
+      </header>
+      <div class="contact-row reveal d1">
+        <a href="mailto:Palpatel494@gmail.com" class="c-card">
+          <span class="c-ico">✉</span>
+          <div class="c-text">
+            <span class="c-label">Email</span>
+            <span class="c-val">Palpatel494@gmail.com</span>
+          </div>
+          <span class="c-arr">→</span>
+        </a>
+        <a href="tel:+19175284262" class="c-card">
+          <span class="c-ico">☏</span>
+          <div class="c-text">
+            <span class="c-label">Phone</span>
+            <span class="c-val">+1 (917) 528-4262</span>
+          </div>
+          <span class="c-arr">→</span>
+        </a>
+        <div class="c-card">
+          <span class="c-ico">📍</span>
+          <div class="c-text">
+            <span class="c-label">Location</span>
+            <span class="c-val">Rutherford, New Jersey</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container foot-inner">
+      <span>© 2025 Pal Kiranbhai Patel</span>
+      <span>Rutgers University · Business '29</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
